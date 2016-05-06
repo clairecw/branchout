@@ -14,5 +14,9 @@
 	font-family: 'Avenir';
 	font-style: normal;
 	font-weight: normal;
-	src: url("./Avenir-Light.ttf");
+	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.eot");
+	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.woff") format("woff"),
+	    url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.ttf")  format("truetype"),
+	    url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.svg") format("svg");
+	    
 }
