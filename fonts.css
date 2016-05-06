@@ -14,5 +14,5 @@
 	font-family: 'Avenir';
 	font-style: normal;
 	font-weight: normal;
-	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Medium-webfont.woff");
+	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Medium-webfont.woff") format ("woff");
 }
