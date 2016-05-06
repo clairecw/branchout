@@ -1,10 +1,20 @@
 body {
-  font-family: 'Raleway';
+  font-family: 'Avenir';
+  /** 
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  **/
 }
 
 h1 {
   font-size: 48px;
   text-align: center;
+}
+
+.row {
+  display: inline;
 }
 
 .nav { 
@@ -133,15 +143,6 @@ h1 {
   background-image:url('http://i.imgur.com/5iqWLaX.png');
 }
 
-.prose {
-  font-family: 'Century Gothic';
-  font-size: 16px;
-  margin: 20px;
-  text-align: center;
-  font-size: 50px;
-  list-style-type: none;
-}
-
 .nav li a, .dropbtn {
     display: inline-block;
     text-align: center;
@@ -183,10 +184,72 @@ h1 {
 }
 
 .blurb {
+  margin: auto;
+  width: 80%;
   margin-top: 140px;
-  padding-top: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
   font-size: 24px;
   font-family:'Avenir';
+}
+
+.blurb h1 {
+  margin-top: 40px;
+}
+
+.bubble {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background-size 1s;
+}
+
+.bubble p {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bubble.architect {
+  background-image:url('https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10710696_1549599185271130_2230199412903322160_n.jpg?oh=f5864bfaa88c7ca8be847925bb9681a5&oe=57B56D67');
+}
+
+.bubble.gay {
+  background-image:url('http://i.imgur.com/X6hSOaK.jpg');
+  background-position: top;
+}
+
+.bubble:hover {
+  background-size: 450px;
+}
+
+.bubblelayer {
+  width: inherit;
+  height: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  transition: background-color 2s;
+  transition: color 0.75s;
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bubblelayer:hover {
+  background-color: rgba(112, 112, 112, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.prose {
+  font-family: 'Century Gothic';
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  list-style: none;
 }
