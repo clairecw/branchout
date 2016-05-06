@@ -142,19 +142,19 @@ h1 {
   list-style-type: none;
 }
 
-li a, .dropbtn {
+.nav li a, .dropbtn {
     display: inline-block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.nav li a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
 }
 
-li.dropdown {
+.nav li.dropdown {
     display: inline-block;
 }
 
