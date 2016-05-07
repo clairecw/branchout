@@ -1,10 +1,28 @@
 body {
   font-family: 'Avenir';
+  /** 
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  **/
 }
 
 h1 {
   font-size: 48px;
   text-align: center;
+}
+
+h2 {
+  padding-left: 5%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.row {
+  display: inline;
 }
 
 .nav { 
@@ -130,16 +148,7 @@ h1 {
 }
 
 .knob.em {
-  background-image:url('http://i.imgur.com/5iqWLaX.png');
-}
-
-.prose {
-  font-family: 'Century Gothic';
-  font-size: 16px;
-  margin: 20px;
-  text-align: center;
-  font-size: 50px;
-  list-style-type: none;
+  background-image:url("http://i.imgur.com/5iqWLaX.png");
 }
 
 .nav li a, .dropbtn {
@@ -185,8 +194,83 @@ h1 {
 .blurb {
   margin: auto;
   width: 80%;
-  margin-top: 200px;
-  padding-top: 40px;
-  font-size: 30px;
+  margin-top: 140px;
+  font-size: 24px;
   font-family:'Avenir';
+}
+
+.blurb-left {
+  font-size: 24px;
+  margin-left: 5%;
+
+}
+
+.blurb h1 {
+  margin-top: 40px;
+}
+
+.founders {
+  text-align: center;
+}
+
+.bubble {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-size 1s;
+}
+
+.bubble p {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bubble.architect {
+  background-image:url('../img/shreya.jpg');
+}
+
+.bubble.gay {
+  background-image:url('http://i.imgur.com/X6hSOaK.jpg');
+  background-position: top;
+}
+
+.bubble:hover {
+  background-size: 450px;
+}
+
+.bubblelayer {
+  width: inherit;
+  height: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  transition: background-color 2s;
+  transition: color 0.75s;
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bubblelayer:hover {
+  background-color: rgba(112, 112, 112, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.prose {
+  font-family: 'Century Gothic';
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  list-style: none;
+}
+
+.programs p {
+  padding-left: 5%;
+  padding-right: 5%;
 }
