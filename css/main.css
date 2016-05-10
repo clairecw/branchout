@@ -242,6 +242,10 @@ p {
   background-size: 300px;
 }
 
+.bubble.architect:hover {
+  background-size: 650px;
+}
+
 .bubble.gay {
   background-image:url('http://i.imgur.com/X6hSOaK.jpg');
   background-position: top;
