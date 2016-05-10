@@ -238,12 +238,12 @@ p {
 
 .bubble.architect {
   background-image:url('../img/shreya.png');
-  background-position: center;
+  background-position: right;
   background-size: 300px;
 }
 
-.bubble.architect:hover {
-  background-size: 650px;
+.bubble.architect {
+  background-size: 300px;
 }
 
 .bubble.gay {
@@ -253,6 +253,10 @@ p {
 
 .bubble:hover {
   background-size: 450px;
+}
+
+.bubble.architect:hover {
+  background-size: 340px;
 }
 
 .bubblelayer {
