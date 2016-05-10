@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
   background-position: center; 
   **/
+  background-color: rgba(140, 186, 128, 0.4);
+
 }
 
 h1 {
@@ -14,6 +16,10 @@ h1 {
 }
 
 h2 {
+  padding-left: 5%;
+}
+
+h3 {
   padding-left: 5%;
 }
 
@@ -66,6 +72,7 @@ p {
   font-family: 'Shift', sans-serif;
   font-size: 20px;
   font-weight: bold;
+  padding-left: 0px;
 }
 
 .learn-more a {
@@ -194,7 +201,7 @@ p {
 .blurb {
   margin: auto;
   width: 80%;
-  margin-top: 140px;
+  margin-top: 80px;
   font-size: 24px;
   font-family:'Avenir';
 }
@@ -230,7 +237,9 @@ p {
 }
 
 .bubble.architect {
-  background-image:url('../img/shreya.jpg');
+  background-image:url('../img/shreya.png');
+  background-position: center;
+  background-size: 300px;
 }
 
 .bubble.gay {
@@ -268,6 +277,14 @@ p {
   font-size: 50px;
   margin: 20px;
   list-style: none;
+}
+
+.prose a {
+
+}
+
+.programs h2 {
+  font-size: 40px;
 }
 
 .programs p {
