@@ -123,8 +123,6 @@ p {
 .knoblayer {
   width: inherit;
   height: inherit;
-  margin-right: auto;
-  margin-left: auto;
   border-radius: 50%;
   transition: background-color 0.5s;
   position: absolute;
@@ -160,6 +158,10 @@ p {
 
 .knob.em {
   background-image:url("http://i.imgur.com/5iqWLaX.png");
+}
+
+.knob.fb {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-128.png');
 }
 
 .nav li a, .dropbtn {
@@ -297,7 +299,12 @@ p {
 }
 
 .prose a {
+  color: #5a5a5a;
+}
 
+.prose a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
 }
 
 .programs h2 {
