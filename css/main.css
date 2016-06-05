@@ -235,30 +235,25 @@ p {
 }
 
 .bubble {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  background-size: 400px;
+  background-size: 300px;
   background-repeat: no-repeat;
   background-position: left;
   transition: background-size 1s;
 }
 
 .bubble p {
-  font-size: 16.5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: -35px;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .bubble.architect {
   background-image:url('../img/shreya.jpg');
   background-position: right;
-  background-size: 300px;
-}
-
-.bubble.architect {
-  background-size: 300px;
+  background-size: 250px;
 }
 
 .bubble.gay {
@@ -266,16 +261,12 @@ p {
   background-position: top;
 }
 
-.bubble.gay p {
-  margin-top: -30px;
-}
-
 .bubble:hover {
-  background-size: 450px;
+  background-size: 330px;
 }
 
 .bubble.architect:hover {
-  background-size: 340px;
+  background-size: 280px;
 }
 
 .bubblelayer {
