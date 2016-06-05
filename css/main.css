@@ -321,3 +321,9 @@ p {
   width: 50%;
   padding-bottom: 5%;
 }
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
