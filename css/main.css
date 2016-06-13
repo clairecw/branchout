@@ -322,8 +322,7 @@ p {
   padding-bottom: 5%;
 }
 
-img.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+.centered {
+  width: 50%;
+  margin: 0 auto;
 }
