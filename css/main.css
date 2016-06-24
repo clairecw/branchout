@@ -238,10 +238,10 @@ p {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-size: 300px;
+  background-size: 300px 365px;
   background-repeat: no-repeat;
   background-position: left;
-  transition: background-size 1s;
+  transition-duration: 1s;
 }
 
 .bubble p {
@@ -253,7 +253,7 @@ p {
 .bubble.architect {
   background-image:url('../img/shreya.jpg');
   background-position: right;
-  background-size: 250px;
+  background-size: 250px 334px;
 }
 
 .bubble.gay {
@@ -262,11 +262,11 @@ p {
 }
 
 .bubble:hover {
-  background-size: 330px;
+  background-size: 330px 402px;
 }
 
 .bubble.architect:hover {
-  background-size: 280px;
+  background-size: 280px 374px;
 }
 
 .bubblelayer {
