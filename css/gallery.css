@@ -6,7 +6,7 @@ div.img {
 }
 
 div.img:hover {
-    border: 2px solid #fff;
+    border: 1px solid #fff;
 }
 
 div.img img {
