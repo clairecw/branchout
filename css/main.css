@@ -252,8 +252,8 @@ p {
 
 .bubble.architect {
   background-image:url('../img/shreya.jpg');
-  background-position: right;
-  background-size: 250px 334px;
+  background-position: top;
+  background-size: 250px 376px;
 }
 
 .bubble.gay {
@@ -266,7 +266,7 @@ p {
 }
 
 .bubble.architect:hover {
-  background-size: 280px 374px;
+  background-size: 280px 421px;
 }
 
 .bubblelayer {
