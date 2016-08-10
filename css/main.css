@@ -341,3 +341,11 @@ p {
 #overDiv img {
   margin-top: 20%;
 }
+
+.names {
+  font-family: 'Century Gothic';
+  text-align: center;
+  font-size: 30px;
+  margin: -10px;
+  list-style: none;
+}
