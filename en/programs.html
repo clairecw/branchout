@@ -6,6 +6,7 @@
     <link rel="icon" href="../img/icon.png">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8"/>
     <link rel="stylesheet" href="../css/main.css">
     <!--<link rel="stylesheet" href="../css/programs.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -37,8 +38,16 @@
     <div class="programs">
       <h1>Our Programs</h1>
       <section id="innovationlab">
-        <h2>Innovation Lab</h2>
-        <p> The summer 2016 <a href="../docs/innolab.pdf" target="_blank">Innovation Lab</a> is comprised of 3 different courses in business, physical science, and engineering meshed into one week-long summer program.<br/> We teach this program in both Spanish and English, although Spanish is a second language for us (so we'll be learning just as much as you!).
+        <div class="panel-group" style="background-color: transparent;">
+          <div class="panel panel-default"style="background-color: transparent;">
+            <div class="panel-heading"style="background-color: transparent;">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1"><h2>Innovation Lab</h2></a>
+              </h4>
+            </div>
+          <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p> The summer 2016 <a href="../docs/innolab.pdf" target="_blank">Innovation Lab</a> is comprised of 3 different courses in business, physical science, and engineering meshed into one week-long summer program.<br/> We teach this program in both Spanish and English, although Spanish is a second language for us (so we'll be learning just as much as you!).
         <h3>Intro to Game Development</h3>
         <p>Sure, playing video games is a blast, but nothing beats making your own! We’ll be teaching students object oriented programming spanning a variety of Python topics like classes, lists, loops, and more, culminating in a final project where we’ll make our own version of the popular computer game, Agar.io. </p>
         <h3>Model Rocketry</h3>
@@ -82,6 +91,10 @@
         <p>Hillview Branch Public Library<br/>1600 Hopkins Dr<br/>San Jose, CA 95122</p>
         <h3>Registration</h3>
         <p>Ages 10 - 12.<br/>Both sessions of the summer 2016 Innovation Lab are now full and registration is closed; thank you for your interest!</p>
+          </div>
+        </div>
+      </div>
+        
       </section>
     </div>
 
