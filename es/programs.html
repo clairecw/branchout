@@ -5,9 +5,12 @@
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="icon" href="../img/icon.png">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/main.css">
     <!--<link rel="stylesheet" href="../css/programs.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -35,8 +38,16 @@
     <div class="programs">
       <h1>Nuestros Programas</h1>
       <section id="innovationlab">
-        <h2>Laboratorio de Innovaci&#243;n</h2>
-        <p> Nuestro <a href="../docs/innolab.pdf" target="_blank">Laboratorio de Innovaci&#243;n</a> est&#225; hecho de 3 cursos diferentes en los negocios, las ciencias fisicales y la inginiera conjuntos en un programa de verano de una semana.<br/> Ense&#241;amos este curso en espa&#241;ol e ingl&#233;s, aunque el espa&#241;ol es una lengua secundaria para nosotros (as&#237; que vamos aprendiendo con Uds.).
+        <div class="panel-group" style="background-color: transparent;">
+          <div class="panel panel-default"style="background-color: transparent;">
+            <div class="panel-heading"style="background-color: transparent;">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1"><h2>Laboratorio de Innovación</h2></a>
+              </h4>
+            </div>
+          <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p> Nuestro <a href="../docs/innolab.pdf" target="_blank">Laboratorio de Innovaci&#243;n</a> est&#225; hecho de 3 cursos diferentes en los negocios, las ciencias fisicales y la inginiera conjuntos en un programa de verano de una semana.<br/> Ense&#241;amos este curso en espa&#241;ol e ingl&#233;s, aunque el espa&#241;ol es una lengua secundaria para nosotros (as&#237; que vamos aprendiendo con Uds.).
         <h3>Introducc&#243;n al Desarrollo de Videojuegos</h3>
         <p>Claro que jugar videojuegos es divertido, &#161;pero no hay nada mejor que hacer su mismo! Vamos a ense&#241;ar la programaci&#243;n orientada a objetos con una variedad de t&#243;picos en python como clases, listas, lazos y m&#225;s, culminando en un proyecto final: construir un videojuego que se parece al juego popular Agar.io!</p>
         <h3>Modelos de Coheter&#237;a</h3>
@@ -80,6 +91,9 @@
           <p>Hillview Branch Public Library<br/>1600 Hopkins Dr<br/>San Jose, CA 95122</p>
           <h3>Registraci&#243;n</h3>
           <p>Para ni&#241;os de 10 - 12 a&#241;os.<br/>Ambos sesiones del Laboratorio de Innovacion en el verano de 2016 ya est&#225;n llenos y registraci&#243;n est&#225; cerrado, &#161;gracias por su inter&#233;s!</p>
+          </div>
+        </div>
+      </div>
         </section>
     </div>
 
