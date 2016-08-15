@@ -10,8 +10,8 @@ div.img:hover {
 }
 
 div.img img {
-    width: 100%;
-    height: auto;
+    width: 305px;
+    height: 200px;
 }
 
 div.desc {
