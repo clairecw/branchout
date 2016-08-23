@@ -355,3 +355,12 @@ p {
   margin-left: 10%;
   margin-bottom: 5%;
 }
+
+.right-text {
+  text-align: right;
+}
+
+.right-text p {
+  margin-right: -5%;
+  margin-left: 5%;
+}
