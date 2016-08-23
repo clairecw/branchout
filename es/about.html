@@ -80,7 +80,7 @@
           </p>
       <p>También reportamos alegremente que el deseo de perseguir una carrera de STEAM subió de 14% a 89% después de una semana del programa.
         <br></p>
-      <h3>¿Te gustaría ser científico, comerciante o ingeniero cuando crezca?<br></h3>
+      <div id="within"><h3>¿Te gustaría ser científico, comerciante o ingeniero cuando crezca?<br></h3></div>
       <div class="col-md-6">
         <p style="margin-left:5%">Antes de la clase:</p>
         <div id="canvas-holder">
@@ -152,7 +152,7 @@ window.onscroll = function(){
   var ctx = document.getElementById("chart-area1").getContext("2d");
   var ctx2 = document.getElementById("chart-area2").getContext("2d");
   
-  var blah = document.getElementById("chart-area1");
+  var blah = document.getElementById("within");
   var test = isScrolledIntoView(blah);
   if (test == true && animated == false) {
     window.myDoughnut1 = new Chart(ctx).Doughnut(career1, {responsive : true});

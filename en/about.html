@@ -79,7 +79,7 @@
           *Our 2 high outliers, 69% and 83%, indicate that we can yet improve promotion of our programs to focus on students from a targeted area.
           </p>
       <p>We are also happy to report that the desire to pursue a STEAM career increased from 14% to 89% after one week of program. <br></p>
-      <h3>Would you want to be a scientist, business person, or engineer when you are older?<br></h3>
+      <div id="within"><h3>Would you want to be a scientist, business person, or engineer when you are older?<br></h3></div>
       <div class="col-md-6">
         <p style="margin-left:5%">Before:</p>
         <div id="canvas-holder">
@@ -150,7 +150,7 @@ window.onscroll = function(){
   var ctx = document.getElementById("chart-area1").getContext("2d");
   var ctx2 = document.getElementById("chart-area2").getContext("2d");
   
-  var blah = document.getElementById("chart-area1");
+  var blah = document.getElementById("within");
   var test = isScrolledIntoView(blah);
   if (test == true && animated == false) {
     window.myDoughnut1 = new Chart(ctx).Doughnut(career1, {responsive : true});
