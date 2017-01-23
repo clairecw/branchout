@@ -41,28 +41,57 @@
       <img src="http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_51.gif"></img>
     </div>
 
-    <h1>Photo Albums</h1>
+    <h1>Photo Gallery</h1>
+    <div style="text-align:center;"><i>Make-a-thon, November session/i></div>
 
     <div class="img">
-      <a href="./innolabjune.html">
-        <img src="../../img/gallery/innolabjune/1.JPG" width="300" height="200">
+      <a target="_blank" href="../../img/gallery/makenov/1.jpg">
+        <img src="../../img/gallery/makenov/1.jpg" width="300" height="200">
       </a>
-      <div class="desc">Innovation Lab Session 1 (June 2016)</div>
     </div>
 
     <div class="img">
-      <a href="./innolabaug.html">
-        <img src="../../img/gallery/innolabaug/3.jpg" width="300" height="500">
+      <a target="_blank" href="../../img/gallery/makenov/2.jpg">
+        <img src="../../img/gallery/makenov/2.jpg" width="300" height="200">
       </a>
-      <div class="desc">Innovation Lab Session 2 (August 2016)</div>
     </div>
 
     <div class="img">
-      <a href="./makenov.html">
-        <img src="../../img/gallery/makenov/6.jpg" width="300" height="500">
+      <a target="_blank" href="../../img/gallery/makenov/3.jpg">
+        <img src="../../img/gallery/makenov/3.jpg" width="300" height="200">
       </a>
-      <div class="desc">Make-a-thon (November 2016)</div>
     </div>
+
+    <div class="img">
+      <a target="_blank" href="../../img/gallery/makenov/4.jpg">
+        <img src="../../img/gallery/makenov/4.jpg" width="300" height="200">
+      </a>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="../../img/gallery/makenov/5.jpg">
+        <img src="../../img/gallery/makenov/5.jpg" width="300" height="200">
+      </a>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="../../img/gallery/makenov/6.jpg">
+        <img src="../../img/gallery/makenov/6.jpg" width="300" height="200">
+      </a>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="../../img/gallery/makenov/7.jpg">
+        <img src="../../img/gallery/makenov/7.jpg" width="300" height="200">
+      </a>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="../../img/gallery/makenov/8.jpg">
+        <img src="../../img/gallery/makenov/8.jpg" width="300" height="200">
+      </a>
+    </div>
+
 
     <div class="footer">
       <div class="container">
