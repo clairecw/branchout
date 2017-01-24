@@ -5,6 +5,14 @@ div.img {
     width: 24%;
 }
 
+div.img2 {
+	margin-left: 50px;
+	margin-top: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+}
+
 div.img:hover {
     border: 1px solid #fff;
 }
