@@ -20,6 +20,9 @@ div.img:hover {
 div.img img {
     width: 305px;
     height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 div.desc {
