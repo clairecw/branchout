@@ -169,7 +169,11 @@ p {
 }
 
 .knob.fb {
-  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-128.png');
+  background-image:url('http://i.imgur.com/enH4lKd.png');
+}
+
+.knob.yt {
+  background-image:url('http://i.imgur.com/ClzVlZY.png');
 }
 
 .nav li a, .dropbtn {
