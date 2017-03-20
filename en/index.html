@@ -3,12 +3,23 @@
   <title>Branch Out</title>
   <head>
     <link rel="icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="../css/animate.css">
+
+     <style>
+    /* Temporary fix for img-fluid sizing within the carousel */
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+    }
+    </style>
   </head>
 
   <body>
@@ -35,35 +46,49 @@
       </div>
     </div>
 
-    <div class="jumbotron">
-      <div class="about">
-        <div class="boxed">
-          <div class="layer">
-            <div class="animated fadeInUp"><h1>Branch Out</h1></div>
-              <p style="color:#fff; font-weight:500">Innovation to All</p>
-              <p style="font-size:20px; margin-left:-20px; margin-right:-20px"><a href="http://www.stemedcoalition.org/" style="color:#003366">An Affiliate of the STEM Education Coalition</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="learn-more">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>About</h3>
-        <p>Branch Out is a community organization that offers entrepreneurial education programs to students and aspiring innovators in underserved communities.</p>
-        <p><a href="./programs.html">See offered courses</a></p>
-      </div>
-      <div class="col-md-6">
-      <h3>Registration</h3>
-      <p>Registration for our March YES Girls event is now closed. Thank you for your interest! </p>
-      
-      </div>
-      </div>
-      </div>
-    </div>
-  </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('../img/gallery/yesmar/16-cropped.jpg')">
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('../img/gallery/makenov/6-cropped.jpg')">
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('../img/gallery/innolabaug/3-cropped.jpg')">
+                </div>
+            </div>
+
+            <div class="jumbotron">
+              <div class="about">
+                <div class="boxed">
+                  <div class="layer">
+                    <div class="animated fadeInUp"><h1>Branch Out</h1></div>
+                      <p style="color:#fff; font-weight:500">Innovation to All</p>
+                      <p style="font-size:20px; margin-left:-20px; margin-right:-20px"><a href="http://www.stemedcoalition.org/" style="color:#003366">An Affiliate of the STEM Education Coalition</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+  
 
   <section class = "blurb" id="about">
 
@@ -91,7 +116,7 @@
         </div>
       </div>
       </div>
-      <p>Growing up in the Silicon Valley, Claire Wang was influenced by the wealth of STEAM opportunity in the area and adopted a strong passion for engineering. Proficient in a number of programming languages, she has tutored peers and helped teach beginner courses in computer science. Claire also enjoys learning language, Spanish in particular. She now works as a swim instructor and hopes to pursue a career in software development or computational linguistics. </p>
+      <p>Growing up in the Silicon Valley, Claire Wang was influenced by the wealth of STEAM opportunity in the area and adopted a strong passion for engineering. Proficient in a number of programming languages, she has worked with and helped to teach peers and young children in a variety of areas, including Spanish, computer science, piano, and swimming. She hopes to pursue a career in artificial intelligence development and computational linguistics. </p>
     </div>
 
     <h1>Special Thanks</h1>
@@ -118,5 +143,20 @@
       </div>
       Copyright Claire Wang 2017.
     </div>
+
+    <script src="../js/jquery.js"></script>
+
+    <!-- Tether -->
+    <script src="../js/tether.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel()
+    </script>
+
+
   </body>
 </html>
