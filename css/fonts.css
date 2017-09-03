@@ -2,21 +2,21 @@
   font-family: 'Shift';
   font-style: normal;
   font-weight: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+  src: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
 }
 @font-face {
   font-family: 'Shift';
   font-style: normal;
   font-weight: bold;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+  src: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
 @font-face {
 	font-family: 'Avenir';
 	font-style: normal;
 	font-weight: normal;
-	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.eot");
-	src: url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.woff") format("woff"),
-	    url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.ttf")  format("truetype"),
-	    url("http://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.svg") format("svg");
+	src: url("https://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.eot");
+	src: url("https://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.woff") format("woff"),
+	    url("https://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.ttf")  format("truetype"),
+	    url("https://www.dwightyoakam.com/sites/g/files/g2000004806/f/201502/Avenir-Black-webfont.svg") format("svg");
 	    
 }
